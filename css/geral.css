@@ -1,0 +1,109 @@
+header{
+width: 100%;
+height: 150px;
+background-color: rgba(204, 19, 19, 0.952);
+position: relative;
+z-index: 2;
+}
+
+header .container{
+    position: relative;
+}
+
+header .header-black{
+    background-color: rgb(0, 0, 0);
+    height: 50px; 
+}
+
+header .header-black li{
+    background-image: url(../css/img/timeblack.jpeg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px;
+}
+
+header .header-black li.club-01{
+    background-position: -45px 0px;
+}
+
+header .header-black li.club-02{
+    background-position: -90px 0px;
+}
+
+header .header-black li.club-03{
+    background-position: -135px 0px;
+}
+
+header .header-black li.club-04{
+    background-position: -180px 0px;
+}
+
+header .header-black li.club-05{
+    background-position: -225px 0px;
+}
+
+header .header-black li.club-06{
+    background-position: -270px 0px;
+}
+
+header .header-black li.club-07{
+    background-position: -315px 0px;
+}
+
+header .header-black li.club-08{
+    background-position: -360px 0px;
+}
+
+header .header-black li.club-09{
+    background-position: -405px 0px;
+}
+
+header .header-black li.club-10{
+    background-position: -450px 0px;
+}
+
+header .header-black li.club-11{
+    background-position: -495px 0px;
+}
+
+header .header-black li.club-12{
+    background-position: -540px 0px;
+}
+
+header .header-black li.club-13{
+    background-position: -585px 0px;
+}
+
+header .header-black li.club-14{
+    background-position: -630px 0px;
+}
+
+header .header-black li.club-15{
+    background-position: -675px 0px;
+}
+
+header .header-black li.club-16{
+    background-position: -720px 0px;
+}
+
+header .header-black li.club-17{
+    background-position: -765px 0px;
+}
+
+header .header-black li.club-18{
+    background-position: -810px 0px;
+}
+
+header .header-black li.club-19{
+    background-position: -855px 0px;
+}
+
+header .header-black li.club-20{
+    background-position: -900px 0px;
+}
+
+header #logotipo{
+    position: absolute;
+    top: 0px;
+}
