@@ -1,8 +1,14 @@
 @font-face {
-    font-family: "Italic";
-    src: url("../fonts/Open_Sans/OpenSans-Italic.ttf");
+   font-family: "Open_Sans";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
     font-size: 1em;
 }
+
+@font-face {
+    font-family: "Open_Sans";
+     src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+     font-size: 1em;
+ } 
 
 header{
 width: 100%;
@@ -126,6 +132,69 @@ header .header-black li a{
 
 #menu li{
     display: inline-block;
-    font-family:"OpenSans";
+    font-family:"Arial";
+    font-style: Regular;
+}
+
+#menu li.search input{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+
+#menu li.search ::-webkit-input-placeholder{
+    color: #fff;
+}
+
+#menu li.search button{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 7px;
+}
+
+#menu li.search button i{
+    font-size: 14px;
+    color: #fff;
+}
+
+#menu li a{
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+#menu li.search .input-group{
+    top: 8px;
+}
+
+#banner {
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url("./img/bandeiraesc.jpg") no-repeat;
+    background-position: 200px -100px;
+    top: -170px ;
+}
+#banner h1{
+    color: #fff;
+    top: 300px;
+    position: relative;
+    font-size: 92px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.45);
+    font-family: 'OpenSans-Light';
+    margin-left: 50px;
+}
+
+#banner h1 small{
+    font-size: 32px;
+    display: block;
+    color: #fff;
+    font-family: 'OpenSans-Light';
 
 }
